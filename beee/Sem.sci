@@ -1,0 +1,10 @@
+clear all;
+close;
+N=5;
+t1=0:20;
+x1=t1;
+subplot(2,3,4);
+plot2d3(t1,x1);
+xlabel('Time');
+ylabel('Amplitude');
+title('Unit Ramp Signal');

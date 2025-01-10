@@ -1,0 +1,10 @@
+clear all;
+close;
+N=5;
+t1=-5:5;
+x1=[zeros(1,N),ones(1,1),zeros(1,N)];
+subplot(2,4,1);
+plot2d3(t1,x1);
+xlabel('time');
+ylabel('amplitude');
+title('unit impulse signal');
